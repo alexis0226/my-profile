@@ -1,0 +1,141 @@
+body {
+	background-color: #FFAB51;
+	color:black;
+	font-family: century gothic;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+	transition : color 0.3 sec ease;
+}
+a:hover {
+	color:black;
+	text-decoration: none
+}
+#main {
+    background: ORANGE;
+    padding: 10px 45px 45px 45px;
+    border-radius: 15px;
+    text-align:center;
+    border-radius: 15px;
+	box-shadow: 10px 10px 10px rgb(255 255 255 / 50%);
+}
+
+.container{
+	width:700px;
+	margin:40px auto;
+}
+@media (max-width: 760px){
+	.container{
+		width : 600px;
+	}
+}
+@media (max-width: 500px){
+	.container{
+		width : 400px;
+	}
+}
+
+.card-orange{
+	background:orange;
+	padding:5px;
+	width:180px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px rgb(255 255 255 / 50%);
+	text-align:center;
+	margin: 20px auto;
+}
+#social-long{
+	width:300px;
+	margin-top:100px;
+
+}
+#title-big{
+	font-size:45px;
+	border:5px solid black;
+	box-shadow: 10px 10px 10px rgb(100,100,100,1);
+	background:white;
+}
+.img-small{
+	width:20%;
+	height:125px;
+}
+.img-small:hover{
+	width:20%;
+	height:125px;
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.img-circle{
+	border-radius: 100%;
+}
+.btn-red{
+	background:grey;
+	color:white;
+	padding:15px 20px;
+	border-radius:5px;
+	border:5px solid rgb(100,100,100,1);
+}
+.btn-red:hover{
+	background:rgb(100,100,100,1);
+	border:5px solid grey;
+	padding:15px 20px;
+	border-radius:5px;
+}
+#h1-margin{
+	margin:30px auto;
+}
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+	text-align:center;
+}
+.list-inline li {
+	display:inline;
+	padding:10px;
+	text-align: center;
+}
+.card-orange_white{
+	background:white;
+	width:150px;
+	padding:20px;
+	border-radius:5px;
+	margin:0px auto;
+}
+.list_container{
+	width:600px;
+	display:flex;
+}
+.list_1,.list_2, .list_3 {
+  width: 100px;  
+  height: 100px; 
+  margin: 0px auto;
+  text-align: center;
+}
+.rest{
+	text-align:center;
+}
+.list-inline i{
+	font-size:60px;
+	color:grey;
+}
+.list-inline i:hover {
+	font-size:60px;
+	color:black;
+	box-shadow: 10px 10px 10px rgb(255 255 255 / 50%);
+	animation: shake 0.3s;
+}
